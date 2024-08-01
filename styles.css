@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-container h1 {
+    margin-bottom: 1em;
+}
+
+.form-step {
+    display: none;
+    flex-direction: column;
+}
+
+.form-step.active {
+    display: flex;
+}
+
+.biometric-options button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.biometric-options button:hover {
+    background-color: #0056b3;
+}
